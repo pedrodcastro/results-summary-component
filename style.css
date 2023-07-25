@@ -53,3 +53,117 @@ html {
     line-height: 1.2;
     text-align: center;
 }
+
+.summary-container {
+    padding: 20px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.summary-tittle {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.status-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: hsla(0, 100%, 67%, 0.05);
+    font-size: 16px;
+}
+
+.status-details {
+    display: flex;
+    gap: 8px;
+}
+
+.status-name {
+    color: hsl(0, 100%, 67%);
+}
+
+.status-score {
+    color: hsl(241, 100%, 89%);
+}
+
+.bold-score {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.yellow {
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.green {
+    background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.blue {
+    background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+.button {
+    text-align: center;
+    background: hsl(224, 30%, 27%);
+    padding: 16px;
+    border-radius: 24px;
+}
+
+.button:hover {
+    cursor: pointer;
+    transition: 1s;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        background-color: hsl(221, 100%, 96%);
+
+    }
+
+    .main-container {
+        display: flex;
+        background-color: white;
+        border-radius: 25px;
+        height: 450px;
+    }
+
+    .result-container {
+        border-radius: 25px;
+        width: 300px;
+        justify-content: space-between;
+        padding: 50px;
+    }
+
+    .summary-container {
+        padding: 50px 36px;
+        width: 300px;
+    }
+
+    .description {
+        padding: 32px;
+    }
+
+}
